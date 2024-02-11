@@ -1,0 +1,47 @@
+/* ==Font Links== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common css end */
+
+/* header start */
+header{
+   background-color:#F0FFF0;
+}
+.cnav{}
+.logo{}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 !important;
+    line-height: 24px;
+}
+.btn_cm{
+    background-color: #21B573;
+    color: #FFFFFF;
+    line-height: 18.75px;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+}
+.btn_cm:hover{
+    background-color: #FD511A;
+    color: #F0FFF0 !important;
+}
+.btn_cm:active{
+    background-color: #FD511A !important;
+    color: #F0FFF0 !important;
+}
+.sign{
+    padding: 12px 28px;
+}
+/* header end */
